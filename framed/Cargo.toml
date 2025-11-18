@@ -1,6 +1,6 @@
 [package]
 name = "framed"
-version = "0.4.3"
+version = "0.4.4"
 description = "Send and receive data over lossy streams of bytes."
 authors = ["Alex Helfet <alex.helfet@gmail.com>"]
 categories = ["no-std", "embedded", "encoding", "network-programming"]
@@ -8,6 +8,7 @@ keywords = ["no_std", "networking", "datalink", "protocol", "embedded"]
 readme = "../README.md"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/fluffysquirrels/framed-rs"
+publish = ["kellnr"]
 
 [badges.travis-ci]
 repository = "fluffysquirrels/framed-rs"
